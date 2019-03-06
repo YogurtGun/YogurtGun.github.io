@@ -1,25 +1,19 @@
 # Site settings
-name: 技术改变生活
-email: 3301308609@qq.com
-author: Hang
-url: http://www.tianhangyu.com
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/YogurtGun/
-baseurl: ""
-description: 学习技术，思考技术
-meta_description: Hang;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+title: Blog
+name: Hang # your name
+email: 136116878@qq.com # your email address
+description: >
+    A Simple Jekyll Blog Theme. # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username: # your Twitter username
+github_username: # your Github username
+disqus_username: # your disqus username
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+google-analytics: # add it if you have one
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-
-github_username: yogurtgun
+skillstree: true # turn on or off the skills tree in about page
 
 # Build settings
+permalink: none
 markdown: kramdown
-
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
